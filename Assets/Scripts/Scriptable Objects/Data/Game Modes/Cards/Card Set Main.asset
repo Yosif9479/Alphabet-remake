@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6539b3cb73d2344095bda4970f14d37, type: 3}
+  m_Name: Card Set Main
+  m_EditorClassIdentifier: 
+  CardInfos:
+  - Letter: "\u0410\u0430"
+    Name: "\u0410\u043D\u0433\u0443\u0440"
+    Icon: {fileID: 21300000, guid: 2767d445625588c4b8ad6ff244f5c2c4, type: 3}
+    AudioClip: {fileID: 8300000, guid: 7575ca64a49064145a7b89e3538cb432, type: 3}
+  - Letter: "\u0411\u0431"
+    Name: "\u0411\u0430\u0440\u0433"
+    Icon: {fileID: 21300000, guid: 6914092e64de3c44fac1289e95fb327f, type: 3}
+    AudioClip: {fileID: 8300000, guid: 24ccbf82a31a26d4592d9a4f06ef583c, type: 3}
+  - Letter: "\u0412\u0432"
+    Name: "\u0412\u0430\u0433\u043E\u043D"
+    Icon: {fileID: 21300000, guid: 2710979f6f0dff541bed25dd3f0b0b75, type: 3}
+    AudioClip: {fileID: 8300000, guid: 1f438edb95218644b805e7d49a44f012, type: 3}
+  - Letter: "\u0413\u0433"
+    Name: "\u0413\u0443\u043B"
+    Icon: {fileID: 21300000, guid: f6663c6856dbabc4db2ebbcd73fac9d2, type: 3}
+    AudioClip: {fileID: 8300000, guid: 8d2b08202efaed843becdf4c7a35ad9b, type: 3}
+  - Letter: "\u0492\u0493"
+    Name: "\u0492\u0438\u043B\u043E\u0444"
+    Icon: {fileID: 21300000, guid: 4170bb139faed3d44bb943f02174fd15, type: 3}
+    AudioClip: {fileID: 8300000, guid: 526320e7d94ec1445b96c1a0667fb1ab, type: 3}
+  - Letter: "\u0414\u0434"
+    Name: "\u0414\u0430\u043D\u0434\u043E\u043D"
+    Icon: {fileID: 21300000, guid: 4ad5ff6d8c4e91d478b831df3ab7f999, type: 3}
+    AudioClip: {fileID: 8300000, guid: 92d97093604d4fc4e8835f64d6ab7f0e, type: 3}
+  - Letter: "\u0415\u0435"
+    Name: "\u0415\u043B\u0438\u043C"
+    Icon: {fileID: 21300000, guid: c862ad9f0c9d8b748b10dec718c0b4ed, type: 3}
+    AudioClip: {fileID: 8300000, guid: 40a3dfc3d0c1c34409518fc8145c1a1f, type: 3}
+  - Letter: "\u0401\u0451"
+    Name: "\u0401\u049B\u0443\u0442"
+    Icon: {fileID: 21300000, guid: 712f753794766674bb34038c6598e1a3, type: 3}
+    AudioClip: {fileID: 8300000, guid: c5d217dee58798040bebeec0c92a3f96, type: 3}
+  - Letter: "\u0416\u0436"
+    Name: "\u0416\u043E\u043B\u0430"
+    Icon: {fileID: 21300000, guid: 0b3f141acda500142b1157b22eb6b9bc, type: 3}
+    AudioClip: {fileID: 8300000, guid: 0b8f35823a75d844381be2eca1738968, type: 3}
+  - Letter: "\u0417\u0437"
+    Name: "\u0417\u043E\u0493"
+    Icon: {fileID: 21300000, guid: 60a493a113c635c4a8cf925069a33b09, type: 3}
+    AudioClip: {fileID: 8300000, guid: fcc8083c6df5a9c47be1105fd0e6513e, type: 3}
+  - Letter: "\u0418\u0438"
+    Name: "\u0418\u0441\u043A\u0430\u043D\u0430"
+    Icon: {fileID: 21300000, guid: 7e5ce9f55a123944cb07585f2bd38157, type: 3}
+    AudioClip: {fileID: 8300000, guid: 728e3e14c862e504e95b7140cf7b08b8, type: 3}
+  - Letter: "\u04E2\u04E3"
+    Name: "\u0418\u0438 \u0434\u0430\u0440\u043E\u0437"
+    Icon: {fileID: 21300000, guid: 3ea423581aa013949adbbedc203ae7e8, type: 3}
+    AudioClip: {fileID: 8300000, guid: fcd84d81e41d48841b328d9e01fed414, type: 3}
+  - Letter: "\u0419\u0439"
+    Name: "\u0419\u043E\u0434"
+    Icon: {fileID: 21300000, guid: 574803db787f3204dbdb7b8d997e85fd, type: 3}
+    AudioClip: {fileID: 8300000, guid: e6c4764e1e722c04a98fc45be16af358, type: 3}
+  - Letter: "\u041A\u043A"
+    Name: "\u041A\u0430\u043B\u0438\u0434"
+    Icon: {fileID: 21300000, guid: ad7b678011e6b4b4d9190bafbea982fd, type: 3}
+    AudioClip: {fileID: 8300000, guid: 5038ab7e54896fe4bbc44f0bc7468a52, type: 3}
+  - Letter: "\u049A\u049B"
+    Name: "\u049A\u0430\u043B\u0430\u043C"
+    Icon: {fileID: 21300000, guid: 1930c9a799560c242abff17c02d115dc, type: 3}
+    AudioClip: {fileID: 8300000, guid: fcab4d354136a164da95c55e8d681189, type: 3}
+  - Letter: "\u041B\u043B"
+    Name: "\u041B\u0438\u043C\u0443"
+    Icon: {fileID: 21300000, guid: ac8c409f3b5b2bf4382ffff0d7d7ca9c, type: 3}
+    AudioClip: {fileID: 8300000, guid: eb8ac6f764c930d4bb4ad581b76e3011, type: 3}
+  - Letter: "\u041C\u043C"
+    Name: "\u041C\u0443\u0440\u0493"
+    Icon: {fileID: 21300000, guid: f4c237e75a8b5e343b2ed98a0799c1c0, type: 3}
+    AudioClip: {fileID: 8300000, guid: 8d52ff1cd2b5ca841970c4300d0c70da, type: 3}
+  - Letter: "\u041D\u043D"
+    Name: "\u041D\u0430\u0439\u0437\u0430"
+    Icon: {fileID: 21300000, guid: ea8f6649e68f3354d95133adeb731f6a, type: 3}
+    AudioClip: {fileID: 8300000, guid: d0a51bfb7a05d0a45bb496b19fef0e23, type: 3}
+  - Letter: "\u041E\u043E"
+    Name: "\u041E\u043B\u0443\u0447\u0430"
+    Icon: {fileID: 21300000, guid: f4a0b6e9cbf93564d9017cd46d443e44, type: 3}
+    AudioClip: {fileID: 8300000, guid: 7419ff8f04597e04ab0fd67a0d454f76, type: 3}
+  - Letter: "\u041F\u043F"
+    Name: "\u041F\u0430\u043B\u0430\u043D\u0433"
+    Icon: {fileID: 21300000, guid: 99bb6613a5d5112478c3be9696043519, type: 3}
+    AudioClip: {fileID: 8300000, guid: 1d3f0968b8feb344c834673d1a475529, type: 3}
+  - Letter: "\u0420\u0440"
+    Name: "\u0420\u0443\u0431\u043E\u04B3"
+    Icon: {fileID: 21300000, guid: d9c60fbf8f8df254bb51d5bbac8b9fb5, type: 3}
+    AudioClip: {fileID: 8300000, guid: fd213feff7f0fbf4988e70e30656d809, type: 3}
+  - Letter: "\u0421\u0441"
+    Name: "\u0421\u0435\u0431"
+    Icon: {fileID: 21300000, guid: af99926632490eb44ad66c4ea361b3fa, type: 3}
+    AudioClip: {fileID: 8300000, guid: 2cf5c924df8c3694d9b25888973fbec7, type: 3}
+  - Letter: "\u0422\u0442"
+    Name: "\u0422\u0430\u043D\u0433\u0430"
+    Icon: {fileID: 21300000, guid: ce2fbfeded659bf4385d8725d7ac5d80, type: 3}
+    AudioClip: {fileID: 8300000, guid: 26a4fff88b4de94439eee96dd9c918ef, type: 3}
+  - Letter: "\u0423\u0443"
+    Name: "\u0423\u049B\u043E\u0431"
+    Icon: {fileID: 21300000, guid: 2cc0c10c00add8042b4ca1d524b5ac1c, type: 3}
+    AudioClip: {fileID: 8300000, guid: 6339b48ff7661c848978e573e4efbf14, type: 3}
+  - Letter: "\u04EE\u04EF"
+    Name: "\u0423\u0438 \u0434\u0430\u0440\u043E\u0437"
+    Icon: {fileID: 21300000, guid: 02d7680b2bf68484ba21db21acc19fc6, type: 3}
+    AudioClip: {fileID: 8300000, guid: e20828a5b12329d4e81fc30e9c305461, type: 3}
+  - Letter: "\u0424\u0444"
+    Name: "\u0424\u0438\u043B"
+    Icon: {fileID: 21300000, guid: 5c1f1a82e70fd9142ad353503ec532b7, type: 3}
+    AudioClip: {fileID: 8300000, guid: d7ca4514cb698c64087e73a3690ecd5e, type: 3}
+  - Letter: "\u0425\u0445"
+    Name: "\u0425\u043E\u0440\u043F\u0443\u0448\u0442"
+    Icon: {fileID: 21300000, guid: 29adbbba72c7524439b28a9157972c38, type: 3}
+    AudioClip: {fileID: 8300000, guid: f52a79ae5498eb348bd0012f7ec9677a, type: 3}
+  - Letter: "\u04B2\u04B3"
+    Name: "\u04B2\u0430\u043D\u0434\u0430\u043B\u0430"
+    Icon: {fileID: 21300000, guid: bfac464bcdcd02043b775d28dd6cb626, type: 3}
+    AudioClip: {fileID: 8300000, guid: 21cec80827e4a9d4bb8b93d349881462, type: 3}
+  - Letter: "\u0427\u0447"
+    Name: "\u0427\u043E\u0439\u043D\u0438\u043A"
+    Icon: {fileID: 21300000, guid: e30773858449cce48b1299d0445ca273, type: 3}
+    AudioClip: {fileID: 8300000, guid: 17e9811c3734339419671407f1cb3252, type: 3}
+  - Letter: "\u04B6\u04B7"
+    Name: "\u04B6\u043E\u0440\u0443\u0431"
+    Icon: {fileID: 21300000, guid: f128f7d49bac0384ba86908aa4c44a48, type: 3}
+    AudioClip: {fileID: 8300000, guid: 2104dd92687b10144aecb27c7545c919, type: 3}
+  - Letter: "\u0428\u0448"
+    Name: "\u0428\u043E\u043D\u0430"
+    Icon: {fileID: 21300000, guid: bda5f909badec404fb55be43b59f0c7e, type: 3}
+    AudioClip: {fileID: 8300000, guid: c695cb713c296a24abb773a31e70c585, type: 3}
+  - Letter: "\u042A\u044A"
+    Name: "\u0410\u043B\u043E\u043C\u0430\u0442\u0438 \u0441\u0430\u043A\u0442\u0430"
+    Icon: {fileID: 21300000, guid: d6cca9abaef950847bd11b9ba6cf3e63, type: 3}
+    AudioClip: {fileID: 8300000, guid: 6d1169779aa07dc41b19976e2329055f, type: 3}
+  - Letter: "\u042D\u044D"
+    Name: "\u042D\u043B\u0430\u043A"
+    Icon: {fileID: 21300000, guid: f7fc45dfb0f29e9419aa6c3debe1b7f1, type: 3}
+    AudioClip: {fileID: 8300000, guid: 28683c20dd9adfb45964239bc2b5cf4f, type: 3}
+  - Letter: "\u042E\u044E"
+    Name: "\u042E\u043B\u0430"
+    Icon: {fileID: 21300000, guid: 1c28cb42ee328184faf8d30fe03281f8, type: 3}
+    AudioClip: {fileID: 8300000, guid: 6a1f966ade0b7d64b8ba6fa6058910a0, type: 3}
+  - Letter: "\u042F\u044F"
+    Name: "\u042F\u0445\u043C\u043E\u0441"
+    Icon: {fileID: 21300000, guid: 0de35ff863d99f7459b4b10e82071c52, type: 3}
+    AudioClip: {fileID: 8300000, guid: f777d99972cb2c942bd16af7bee2e00a, type: 3}
